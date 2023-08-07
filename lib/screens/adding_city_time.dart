@@ -25,7 +25,7 @@ class _AddingTimeCitiesAroundTheWorldState
 
     String? worldClokTimeZones = prefs.getString('WorldClockTimeZones');
 
-    // check whether the worldClokTimeZones is null so this is first initialization for 
+    // check whether the worldClokTimeZones is null so this is first initialization ❤
     if (worldClokTimeZones == "") {
       worldClokTimeZones = "<$cityName|${() {
         if (hour < 10) {
