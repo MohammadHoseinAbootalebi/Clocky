@@ -40,7 +40,7 @@ dependencies:
   shared_preferences: ^2.0.15
   uuid: ^3.0.7
   flutter_bloc: ^8.1.1
-  numberpicker: ^2.1.1
+  numberpicker: ^2.1.2
   syncfusion_flutter_datepicker: ^21.1.35
   flutter_svg: ^2.0.4
   timezone: ^0.9.1

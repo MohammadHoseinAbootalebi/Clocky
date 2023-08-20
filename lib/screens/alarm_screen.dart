@@ -5,7 +5,6 @@ import 'package:clock_app/widgets/fade_page_route.dart';
 import 'package:clock_app/widgets/slide_transition.dart';
 import 'package:clock_app/widgets/stop_watch_widgets.dart';
 import 'package:clock_app/widgets/timer_widget.dart';
-import 'package:clock_app/widgets/timer_widget_bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:shared_preferences/shared_preferences.dart';

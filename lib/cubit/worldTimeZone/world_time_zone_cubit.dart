@@ -1,5 +1,4 @@
 import 'package:bloc/bloc.dart';
-import 'package:meta/meta.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 part 'world_time_zone_state.dart';
@@ -320,7 +319,6 @@ class WorldTimeZoneCubit extends Cubit<WorldTimeZoneState> {
     if (toWritezones == "") {
       int number = -1;
 
-      SharedPreferences _prefs = await SharedPreferences.getInstance();
 
       state.worldTimeZones = toWritezones;
 
@@ -494,8 +492,6 @@ class WorldTimeZoneCubit extends Cubit<WorldTimeZoneState> {
       );
     } else {
       int number = 5;
-
-      SharedPreferences _prefs = await SharedPreferences.getInstance();
 
       state.worldTimeZones = toWritezones;
 
